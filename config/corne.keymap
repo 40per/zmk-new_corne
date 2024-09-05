@@ -21,7 +21,7 @@
     behaviors {
         td0: td0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD0";
+            label = "TD0(SFT+CAP)";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
