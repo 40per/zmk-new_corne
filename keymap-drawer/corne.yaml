@@ -18,7 +18,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: SYMBOL}
+  - {t: F, h: '3'}
   - G
   - $$mdi:arrow-down-bold$$
   - H
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  SYMBOL:
+  '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
