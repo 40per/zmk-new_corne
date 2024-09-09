@@ -39,7 +39,7 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: lower}
