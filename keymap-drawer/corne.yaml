@@ -18,7 +18,7 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: SYMBOL}
   - G
   - $$mdi:arrow-down-bold$$
   - H
@@ -45,8 +45,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - LEFT WIN
   - $$mdi:arrow-right-bold$$
-  - {t: '2', h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - BTSET
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   '1':
@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   '2':
-  - ''
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -108,11 +108,11 @@ layers:
   - $$mdi:pan-up$$
   - F6
   - F7
-  - {t: '8', s: '*'}
+  - $$mdi:arrow-up-bold$$
   - F9
   - F10
-  - F11
-  - ''
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
   - F8
@@ -120,31 +120,31 @@ layers:
   - '&mkp MB4'
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: \, s: '|'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - ''
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
   - $$mdi:progress-download$$
-  - ''
-  - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - SCROLLLOCK
-  - PAUSE BREAK
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-5$$
+  - $$mdi:brightness-7$$
   - $$mdi:volume-off$$
   - ''
   - ''
   - ''
   - $$mdi:pan-right$$
   - ''
-  - ''
+  - {type: held}
   - ''
   - $$mdi:mouse-left-click-outline$$
   SYMBOL:
@@ -165,7 +165,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
@@ -193,7 +193,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   BTSET:
@@ -241,7 +241,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - INS
+  - {t: INS, type: held}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
