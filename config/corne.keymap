@@ -42,7 +42,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        layer_default {
             display-name = "QWERTY";
 
             // --------------------------------------------------------------------------------
@@ -80,7 +80,7 @@
                                                      &mkp LCLK
             >;
 
-            label = "NUMBER";
+            label = "NUM/SYMBOL";
             sensor-bindings = <&inc_dec_kp  PG_UP PG_DN>;
         };
 
@@ -97,7 +97,7 @@
             label = "Func";
         };
 
-        raise_layer {
+        layer_3 {
             display-name = "SYMBOL";
 
             // -----------------------------------------------------------------------------------------
@@ -113,6 +113,8 @@
                       &trans        &trans    &trans    &kp SPACE    &trans  &kp RET    &trans     &trans
                                                                      &trans
             >;
+
+            label = "NumPAD";
         };
 
         layer_4 {
