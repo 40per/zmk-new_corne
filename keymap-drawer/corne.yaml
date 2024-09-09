@@ -70,10 +70,10 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
