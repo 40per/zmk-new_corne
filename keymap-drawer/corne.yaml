@@ -194,7 +194,7 @@ layers:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
   - BT CLR ALL
   BTSET:
   - {t: '$$mdi:transfer$$', type: trans}
