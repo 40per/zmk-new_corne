@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - {t: \, s: '|'}
-  - KP ENTER
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&td0'
   - Z
   - X
