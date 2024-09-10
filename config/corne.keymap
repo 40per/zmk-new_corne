@@ -64,7 +64,7 @@
         };
 
         layer_1 {
-            display-name = "NUM/SYMBOL";
+            display-name = "NUM/SYM";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -80,7 +80,7 @@
                                                            &mkp LCLK
             >;
 
-            label = "NUM/SYMBOL";
+            label = "NUM/SYM";
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
@@ -119,10 +119,10 @@
         };
 
         layer_4 {
-            label = "mouse";
+            label = "RGB";
             display-name = "mouse";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3             &kp N4            &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
+&trans  &none            &none           &none              &none             &none              &mmv MOVE_UP     &none            &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2      &bt BT_SEL 3       &mmv MOVE_DOWN   &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &ext_power EP_OFF  &ext_power EP_ON  &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                          &trans          &trans             &trans            &trans             &mmv MOVE_RIGHT  &trans           &trans           &trans
