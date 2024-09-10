@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - LEFT WIN
   - $$mdi:arrow-right-bold$$
-  - BTSET
+  - RGB_SET
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - BT CLR ALL
-  BTSET:
+  RGB_SET:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
